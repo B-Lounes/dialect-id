@@ -1,0 +1,83 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*
+secrets/
+
+# Model and optimizer artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+checkpoints/
+models/
+hf-cache/
+huggingface/
+
+# Datasets, audio, manifests, and large generated artifacts
+data/
+datasets/
+manifests/
+predictions/
+metadata/
+state/
+retry/
+tmp/
+*.parquet
+*.arrow
+*.jsonl
+*.jsonl.gz
+*.jsonl.zst
+*.csv.gz
+*.csv.zst
+*.tar
+*.tar.gz
+*.tgz
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.sqlite
+*.sqlite-*
+*.db
+*.duckdb
+
+# Experiment output
+runs/
+outputs/
+reports/
+logs/
+slurm-*.out
+slurm-*.err
+*.log
+*.out
+*.err
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+
+# Synthetic fixtures are allowed if a test needs them later.
+!tests/fixtures/**
