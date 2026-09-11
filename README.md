@@ -1,4 +1,4 @@
-# Arabic Dialect Identification
+# Dialect Identification
 
 Research and engineering toolkit for training, evaluating,
 calibrating, and operationalizing a 23-label Arabic dialect-identification
